@@ -112,7 +112,7 @@ body {
             .attr("y", -30)
             .style("text-anchor", "middle")
             .attr("transform", "translate(" + gridSize / 2 + ", -6)")
-            .attr("class", function(d, i) { return ((i >= 14 && i <= 36) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); });
+            .attr("class", function(d, i) { return ((i >= 16 && i <= 36) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); });
       var heatmapChart = function(txtFile) {
         d3.tsv(txtFile,
         function(d) {
